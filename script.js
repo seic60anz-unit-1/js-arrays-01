@@ -27,18 +27,22 @@
 //Wild Wild Life
 
 // name, species, age, hometown
-let wolfy = ['Wolfy', 'wolf', 16, 'Yukon Territory']
-let sharky = ['Sharky', 'shark', 20, 'Left Coast']
-let plantee = ['Plantee', 'plant',  5000 , 'Mordor']
-let porgee = ['Porgee', 'Porg', 186, 'Ahch-To']
-let dart = ['D\'Art' , 'Demogorgan Dog', 2, 'Upside Down']
+// let wolfy = ['Wolfy', 'wolf', 16, 'Yukon Territory']
+// let sharky = ['Sharky', 'shark', 20, 'Left Coast']
+// let plantee = ['Plantee', 'plant',  5000 , 'Mordor']
+// let porgee = ['Porgee', 'Porg', 186, 'Ahch-To']
+// let dart = ['D\'Art' , 'Demogorgan Dog', 2, 'Upside Down']
 
-plantee[2] = plantee[2] + 1
-wolfy[3] = "Gotham City"
-dart.push("Hawkins")
-wolfy[0] = "Gameboy"
+// plantee[2] = plantee[2] + 1
+// wolfy[3] = "Gotham City"
+// dart.push("Hawkins")
+// wolfy[0] = "Gameboy"
 
-
+//Yell at the Ninja Turtles
+ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for (let i of ninjaTurtles){
+    console.log(i.toUpperCase())
+}
 
 
 
