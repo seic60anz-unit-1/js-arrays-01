@@ -8,10 +8,18 @@
 // console.log(quotes) //Movie quotes are too long, so I put movie names as quotes instead
 
 //for vs for..of
-const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-for (let i = 0; i < letters.length; i++){
-    console.log(`${i} - ${letters[i]}`)
+// const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+// for (let i = 0; i < letters.length; i++){
+//     console.log(`${i} - ${letters[i]}`)
+// }
+// for (let i of letters){
+//     console.log(i)
+// }
+
+//Sum
+sum = 0
+const numbers = [23, 19, 23, 52, 12]
+for (let i of numbers){
+    sum = sum + i
 }
-for (let i of letters){
-    console.log(i)
-}
+console.log(sum)
