@@ -17,9 +17,30 @@
 // }
 
 //Sum
-sum = 0
-const numbers = [23, 19, 23, 52, 12]
-for (let i of numbers){
-    sum = sum + i
-}
-console.log(sum)
+// sum = 0
+// const numbers = [23, 19, 23, 52, 12]
+// for (let i of numbers){
+//     sum = sum + i
+// }
+// console.log(sum)
+
+//Wild Wild Life
+
+// name, species, age, hometown
+let wolfy = ['Wolfy', 'wolf', 16, 'Yukon Territory']
+let sharky = ['Sharky', 'shark', 20, 'Left Coast']
+let plantee = ['Plantee', 'plant',  5000 , 'Mordor']
+let porgee = ['Porgee', 'Porg', 186, 'Ahch-To']
+let dart = ['D\'Art' , 'Demogorgan Dog', 2, 'Upside Down']
+
+plantee[2] = plantee[2] + 1
+wolfy[3] = "Gotham City"
+dart.push("Hawkins")
+wolfy[0] = "Gameboy"
+
+
+
+
+
+
+
